@@ -1,0 +1,50 @@
+.footer
+{
+    color:white;
+    height: 250px;
+    margin-top:750px;
+    background-color: black;
+
+}
+.footer-imgs
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    
+}
+.instagram
+{
+    height:60px;
+            margin-top:35px;
+}
+.footer-real
+
+{
+    height: 100px;
+            display: flex;
+            width: 400px;
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 250px;
+            justify-content: space-between;
+}
+@media (min-width:1300px)
+{
+    .footer-real
+    {
+        margin-left: 500px;
+        width: 900px;
+    
+    }
+
+    .footer-imgs
+    {
+        height: 75px;
+    }
+    .instagram
+    {
+        height: 105px;
+    }
+}

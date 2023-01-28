@@ -1,0 +1,10 @@
+.text-img1-envisage
+{
+    display: flex;
+    position: absolute;
+    font-size:50px;
+    margin-top:250px;
+    margin-left:650px;
+    color:white;  
+    font-family: Barlow;  
+}

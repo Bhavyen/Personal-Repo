@@ -1,0 +1,35 @@
+
+.img5-heading
+{
+    position:absolute;
+    margin-top:30px;
+    margin-left:415px;
+    font-size: 35px;
+    font-family: Barlow;
+}
+.img5-content
+{
+    position: absolute;
+    margin-top:75px;
+    margin-left:290px;
+    font-family: Barlow;
+    font-size:25px;
+
+}
+
+@media (min-width:1300px)
+{
+    .img5-heading
+    {
+        margin-left: 900px;
+        font-size: 60px;
+    }
+    .img5-content
+    {
+        margin-left:650px;
+        margin-top:95px;
+        font-size: 50px;
+    }
+    
+}
+    

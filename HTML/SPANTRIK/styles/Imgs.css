@@ -1,0 +1,93 @@
+/*For home page */
+.img-container
+{
+    
+    position: relative;
+    
+
+   
+}
+.img-con
+{
+   
+    width: 100%;
+    
+}
+.img1
+{
+   
+
+   height: 750px;
+   width: 100%;
+   
+    
+}
+
+.button
+{
+    display: flex;
+    flex-direction: row;
+    right:150px;
+    top: 600px;
+    position: absolute;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 50px;
+    background-color: rgb(15, 14, 14);
+    height: 60px;
+    width: 120px;
+    font-family: Barlow;
+    font-size: 15px;
+    z-index: 100;
+  
+}
+.button2
+{
+    display: flex;
+    flex-direction: row;
+    right:150px;
+    top: 1350px;
+    position: absolute;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 50px;
+    background-color: rgb(15, 14, 14);
+    height: 60px;
+    width: 120px;
+    font-family: Barlow;
+    font-size: 15px;
+    z-index:100;
+
+}
+.button3
+{
+    display: flex;
+    flex-direction: row;
+    right:150px;
+    top: 2100px;
+    position: absolute;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 50px;
+    background-color: rgb(15, 14, 14);
+    height: 60px;
+    width: 120px;
+    font-family: Barlow;
+    font-size: 15px;
+    z-index:100;
+
+}
+.button:hover, .button2:hover, .button3:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.text-alignment
+{
+    margin-top:18px;
+    margin-left: 15px;
+}

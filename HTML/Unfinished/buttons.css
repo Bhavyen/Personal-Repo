@@ -1,0 +1,93 @@
+
+      .subscribe
+      {
+        background-color: rgb(200, 0, 0); 
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+        
+      }
+      .subscribe:hover 
+    {
+      opacity: 0.7;
+      
+    
+    }
+    .subscribe:active{
+      opacity: 0.55;
+      
+    }
+ 
+    
+    
+    
+   
+      .join
+      {
+        background-color:white;
+        border-color: rgb(104, 174, 240);
+        border-style: solid;
+        border-width: 1px;
+        color:rgb(104,174,240);
+        height: 36px;
+        width: 62px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: background-color 0.15s, color 0.15s;
+      }
+      .join:hover
+      {
+        background-color: rgb(104,174,240);
+        color:white;
+    
+      }
+      .join:active
+      {
+        opacity:0.7;
+      }
+   
+    
+    
+    
+      .tweet
+      {
+        background-color: rgb(1,181,250);
+        border: none;
+        border-radius: 18px;
+        height: 36px;
+        width: 70px;
+        color: white;
+        cursor:pointer;
+        
+        margin-left: 8px;
+        transition: box-shadow 0.15s;
+        
+    
+    
+      }
+      .tweet:hover
+      {
+        box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+      }
+    
+    
+    
+      .Add-to-cart
+      {
+        background-color: rgb(255,216,20);
+        border: none;
+        border-radius: 35px;
+        height: 30px;
+        width: 150px;
+        color: black;
+        cursor:pointer;
+        margin-left: 8px;
+    
+    
+      }
+    

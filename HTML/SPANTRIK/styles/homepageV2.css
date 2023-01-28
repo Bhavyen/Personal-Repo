@@ -1,0 +1,79 @@
+.gif1
+{
+    
+    width: 100%;
+    height: 750px;
+}
+.img2
+{
+    margin-top: -20px;
+    width: 100%;
+    height: 750px;
+}
+.img3
+{
+    margin-top: -30px;
+    width: 100%;
+    height: 750px;
+}
+.img-5
+{
+    display:flex;
+    background-color: black;
+    height: 375px;
+    width:100%;
+    margin-top:-50px;
+    
+
+}
+.img-5-mars
+{
+    height: 350px;
+    margin-left: 300px;
+    margin-top:35px;
+}
+.img-6
+{
+    
+    color:white;
+    background-color: black;
+    height: 200px;
+    width:100%;
+    margin-top: -20px;
+    
+    
+
+}
+.img-7
+{
+    color:white;
+    background-color: black;
+    height: 200px;
+    width:100%;
+    margin-top: -20px;
+
+}
+
+@media (min-width: 1300px)
+{
+    .gif1, .img2,.img3,.img-7
+    {
+        height: 1000px;
+        width: 100%;
+    }
+    .img-5
+    {
+        height:400px;
+
+    }
+    .img-6
+    {
+        height: 400px;
+    }
+    .img-5-mars
+    {
+        margin-left:785px;
+
+    }
+
+}

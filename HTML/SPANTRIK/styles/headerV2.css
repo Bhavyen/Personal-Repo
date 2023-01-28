@@ -1,0 +1,94 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+/* General Header*/
+.Header
+{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    z-index: 200;
+   
+    
+
+  
+
+}
+.left-section
+{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+}
+/* Right Section*/
+.right-section
+{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+    .header-buttons
+    {
+        font-family: Inter;
+       color:white;
+        margin-right: 15px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .header-buttons a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .header-buttons a:hover{
+        text-decoration: none;
+        color:black;
+        background-color: #fff;
+        padding: 8px;
+        transition: all 0.3s ease;
+    }
+
+/*Left-Section*/
+.logo
+{
+    margin-left: 7px;
+    margin-top: 7px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.logo-text
+{
+    font-family: Barlow;
+    color: white;
+    display: flex;
+    margin-top: 17px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+@media (min-width:1465px)
+{
+    .right-section
+    {
+        flex:1;
+        margin-right: 75px;
+       
+    }
+    .left-section
+    {
+        flex: 2;
+    }
+}

@@ -1,0 +1,43 @@
+/* General Header*/
+.Header
+{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    background-color: rgb(34, 32, 32);
+    z-index: 200;
+   
+    
+
+  
+
+}
+/* Right Section*/
+.right-section
+{
+    
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+    .header-buttons
+    {
+        font-family: Barlow;
+        color: white;
+        margin-right: 15px;
+        text-decoration: none;
+    }
+/*Left-Section*/
+.logo
+{
+    margin-top: 3px;
+    width: 150px;
+}

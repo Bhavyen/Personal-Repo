@@ -1,0 +1,68 @@
+.container
+{
+    width:500px;
+    height: 500px;
+    border-width:3px;
+    border-color: black;
+    border-style: solid;
+    padding: 0;
+    margin:0;
+}
+.block1
+{
+    margin:0;
+    width:100%;
+    height: 50px;
+    background-color: aqua;
+    
+    animation: keys 3s infinite alternate ;
+    
+
+}
+.block2
+{
+    margin:0;
+    width:100%;
+    height: 50px;
+    background-color: aqua;
+    animation: keys2 3s infinite alternate ;
+
+}
+
+.block3
+{
+    margin:0;
+    width:100%;
+    height: 50px;
+    background-color: aqua;
+    animation: keys3 3s infinite alternate ;
+
+}
+
+@keyframes keys 
+{
+    100%
+    {
+        transform: translateY(713%);
+    }
+
+
+}
+@keyframes keys2
+{
+    100%
+    {
+        transform: translateY(700%);
+    }
+
+
+}
+@keyframes keys3
+{
+    100%
+    {
+        transform: translateY(700%);
+    }
+
+
+}

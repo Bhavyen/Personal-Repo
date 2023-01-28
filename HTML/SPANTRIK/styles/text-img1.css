@@ -1,0 +1,45 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+.text-img-1
+{
+    font-family: Barlow;
+    position: absolute;
+    font-size: 50px;
+    color:white;
+    left: 200px;
+    
+    margin-top : 175px; 
+            
+   
+    
+}
+.text-img-2
+{
+    font-family: Barlow;
+    position: absolute;
+    font-size: 20px;
+    color:white;
+    left: 235px;
+    
+    margin-top : 240px; 
+            
+}
+@media (min-width: 1300px)
+{
+  .text-img-1
+  {
+    margin-left:250px;
+    font-size: 100px
+  }
+  .text-img-2
+  {
+    margin-top:300px;
+    margin-left:85px;
+    font-size: 30px;
+    
+  }
+}

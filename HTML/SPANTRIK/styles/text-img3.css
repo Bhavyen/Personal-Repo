@@ -1,0 +1,60 @@
+.text-img-4
+{
+    font-family: Barlow;
+    font-size: 35px;
+    position: absolute;
+    color: white;
+    margin-top:150px;
+    margin-left:150px;
+}
+.text-img-5
+{
+    font-family: Barlow;
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    margin-top:200px;
+    margin-left: 350px;
+}
+.button2
+{
+    color:white;
+    border-width: 1px;
+    border-color:white;
+    border-style: solid;
+    background-color: transparent;
+    border-radius: 15px;
+    height: 75px;
+    width: 160px;
+    position:absolute;
+    margin-left: 320px;
+    margin-top:275px;
+    font-family: Barlow;
+    font-size: 20px;
+}
+.button2:hover
+{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+}
+@media(min-width:1300px)
+{
+    .text-img-4
+    {
+       font-size: 100px;
+        margin-left:300px;
+    }
+    .text-img-5
+    {
+        margin-top:250px;
+        font-size:100px;
+        margin-left:800px;
+    }
+    .button2
+    {
+        margin-top:375px;
+        margin-left:850px;
+    }
+
+}

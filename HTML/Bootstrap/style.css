@@ -1,0 +1,11 @@
+.base-container
+{
+    position: absolute;
+    right: 15px;
+    top:15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-self: center;
+    height: 350px;
+}
